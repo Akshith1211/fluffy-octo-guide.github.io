@@ -1,0 +1,65 @@
+#contentImg {
+  width: 100%;
+  height: 40%;
+}
+
+#allPosts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#mainContainer {
+  width: 30%;
+  margin: 10px;
+  box-shadow: 10px 10px 10px 10px rgba(28, 25, 176, 0.27);
+  background-color: antiquewhite;
+  padding: 10px;
+}
+
+#author {
+  background-color: rgb(65, 153, 230);
+  color: rgb(13, 12, 12);
+  text-align: center;
+  font-weight: 800;
+}
+
+#title {
+  color: royalblue;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#description {
+  font-size: 16px;
+  background-color: aliceblue;
+  font-weight: 600;
+}
+
+#content {
+  font-size: 16px;
+  background-color: aliceblue;
+  font-weight: 500;
+}
+
+#publishedAt {
+  color: red;
+  font-size: 12px;
+}
+
+#btn {
+  background-color: royalblue;
+  color: white;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 35%;
+  font-size: 20px;
+}
+
+#btn:hover {
+  background-color: white;
+  color: royalblue;
+  cursor: pointer;
+}
